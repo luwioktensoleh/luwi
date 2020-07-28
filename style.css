@@ -1,0 +1,320 @@
+.tokoku{
+	height : 80px;
+	width : 250px;
+}
+
+.dhead{
+	background: silver;
+	width : 1200px;
+	position : relative;
+	bottom : 10px;
+	float : left;
+}
+
+.menu-head{
+	float : right;
+	margin-right : 320px;
+	
+}
+
+.menu-head li{
+	display: inline-block;
+	font-size: 20px;
+	padding :5px;
+	margin : 20px;
+	
+  }
+
+.menu-head li a{
+	text-decoration : none;
+}
+
+.sign-head{
+	background : #E6E6E6;
+	float : right;
+	margin-bottom : 50px;
+	position : relative;
+	bottom : 90px;
+	width : 140px;
+	height : 80px;
+}
+
+.sign-head li {
+	display: inline-block;
+	margin-top : 28px;
+	margin-left : 10px;
+	font-size: 15px ;
+	
+}
+
+.sign-head li a{
+	text-decoration : none;
+}
+
+.search{
+	position : fixed;
+	top: 15px;
+	right : 180px;
+}
+
+.search input {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+.search input:hover {
+	background-color: #fff;
+}
+.search input:focus {
+	width: 830px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+.search input:-moz-placeholder {
+	color: transparent;
+}
+.search input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.search input {
+	background: #ededed url(Lol.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 10px 0px 9px 0px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-webkit-transition: all .5s;
+	}
+
+	input[type=search] {
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 8;
+  width: 1331;
+}
+
+.sticky + .div2 {
+  padding-top: 90px;
+}
+
+.warp ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.warp ul a{
+	display:block;
+	line-height:32px;
+}
+
+.warp ul li{
+	display:block;
+	line-height:32px;
+	float:left;
+}
+.warp ul li:hover
+{
+	background:#F6CECE;
+
+}
+
+.warp ul ul{
+		display:none;
+		position : absolute;
+		background : silver;
+}
+
+.warp ul ul li
+{
+	float:none;
+	width:200px
+}
+
+.warp ul li:hover > ul
+{
+	display:block;
+	border-bottom : 3px solid gold;
+}
+
+.iklan1 {
+    width: 800px;
+	height : 200px;
+	margin-left : 300px;
+	border-left : 4px solid gold;
+	border-right : 4px solid gold;
+}
+
+.divc2 p {
+	width : 400px;
+	height : 200px;
+}
+
+.player1 {
+	height : 200px;
+	width : 398px;
+}
+
+.divc21 {
+	float : right;
+	border-left : 1px solid gold;
+	border-right : 1px solid gold;
+}
+
+.divc22{
+	float : right;
+	border-left : 1px solid gold;
+	border-right : 1px solid gold;
+}
+
+.divc23{
+	float : right;
+	border-left : 1px solid gold;
+	border-right : 1px solid gold;
+}
+
+.baca {
+	font-style : italic;
+}
+
+.konten {
+	margin-left : 300px;
+	width : 720px;
+	padding-left : 10px;
+	padding-right : 10px;
+	background : #D8D8D8;
+}
+
+.konten h2 {
+	background : #E0F2F7;
+	width : 720px;
+	padding : 20px 0 20px 0 ;
+}
+
+.baca-gambar {
+ height : 500px;
+ width : 720px;
+}
+
+.konten p {
+	background : #E6E6E6;
+}
+
+.tenis {
+	background : #E6E6E6;
+	height : 900px;
+	width : 100%;
+}
+
+.tenis1 {
+	background : #F2F2F2;
+	height : 200px;
+	width : 100%;
+
+}
+
+.tenis-f {
+	margin-top : 5px;
+}
+
+.tenis-image-f {
+	width : 300px;
+	height :190px;
+	margin-top : 5px;
+	float : left;
+}
+
+.tenis1 p {
+	width : 900px;
+	height :190px;
+	margin-top : 5px;
+	margin-left : 6000 px;
+}
+
+.tenis1:hover {
+	background : #F8E0E6;
+}
+
+.jadwal-head li {
+	display : inline-block;
+	padding : 5px 55px 5px 55px;
+	margin-top : 80px;
+	margin-left : 20px;
+
+}
+
+.li1{
+		border-bottom : 5px solid gold;
+}
+
+.jadwal-conten1 {
+	display : inline-block;
+	background : #D8D8D8;
+	width : 60%;
+	height : 60px;
+	margin-top : 50px;
+}
+
+.jadwal-conten1:hover{
+	background : #F7819F;
+}
+
+.jadwal-team {
+	height : 60px;
+	width : 60px;
+	float : left;
+	padding-left : 125px;
+	padding-right : 125px;
+}
+
+.jadwal-conten1 li {
+	margin-bottom : 60px;
+}
+
+.score{
+	float : left;
+	padding-right : 20px;
+}
+
+.waktu {
+	float : left;
+	padding-left : 35px;
+}
+
+.sticky + .jadwal-all {
+  padding-top: 90px;
+}
+
+.sticky + .tenis {
+	padding-top: 120px;
+}
+
+.konten2 {
+	margin-left : 300px;
+	width : 720px;
+	padding-left : 10px;
+	padding-right : 10px;
+	background : #D8D8D8;
+}
+
+.quest{
+	background : #F7819F;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+.jawaban {
+	background : #D8D8D8;
+}

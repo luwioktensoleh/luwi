@@ -1,0 +1,151 @@
+<html>
+<head>
+	<title>Tokoh Online</title>
+	<link rel="stylesheet" href="style.css">
+	<!--<script type="text/javascript" src="script.js"></script>-->
+</head>
+
+<body>
+<div id="navbar">
+<div class="dhead">
+	<img src="onsho.png" class="tokoku">
+	<div class="menu-head">
+	<nav class="warp">
+	<ul>
+		<li>
+			<a href="#">Home</a>
+		</li>
+		<li>
+			<a href="#">Sport</a>
+			<ul>
+				<li>
+					<a href="sepakbola.html">Basket</a>
+				</li>
+				<li>
+					<a href="lalala.html">Sepak Bola</a>
+				</li>
+				<li>
+					<a href="tenis.html">Tenis</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Jadwal</a>
+			<ul>
+				<li>
+					<a>SP</a>
+				</li>
+				<li>
+					<a href="jadwal.html">Bola</a>
+				</li>
+				<li>
+					<a>News</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Kontak</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact US</a>
+		</li>
+		
+	</ul>	
+	</nav>
+	</div >
+</div>
+<div id="navbar2">
+		<form class="search">
+			<input	type="search" placeholder="Search">
+				
+			</input>
+		</form>
+</div>
+<div class="sign-head">
+		<li>
+			<a href="#">Login</a>
+		</li>
+		<li>
+			<a>|</a>
+		</li>
+		<li>
+			<a href="#">Daftar</a>
+		</li>
+	</div>
+</div>
+
+<div class="div2">
+	<img src="iklan.png" class="iklan1">
+</div>
+
+<div class="divc2">
+	<div class="divc21">
+		<ul>
+			<img src="tenis1.jpeg" class="player1">
+			<p>
+			Paris - Rafael Nadal berhasil meraih gelar juara Prancis Terbuka ke-11. 
+			Di final, Nadal tampil lebih dominan untuk mengalahkan Dominic Thiem tiga set langsung.<br><br>
+			Di Lapangan Philippe Chartrier, Minggu (10/6/2018) malam WIB, petenis nomor 
+			satu dunia itu memenangi pertandingan dengan skor 6-4, 6-3, 6-2, dalam waktu 2 jam 42 menit. 
+			Bagi Nadal, ini adalah gelar Grand Slam ke-17 dalam kariernya hanya berjarak tiga trofi dari
+			peraih titel terbanyak, Roger Federer (20).
+		<a class="baca" href="baca1.html"> baca Selengkapnya</a>		
+			</p>
+		</ul>
+	</div>
+	
+	<div class="divc22">
+		<ul>
+			<img src="baca2.jpeg" class="player1">
+			<p>
+			Cleveland - Small forward Golden State 
+			Warriors Kevin Durant menjadi MVP final NBA 2018. 
+			Peran Durant krusial dalam sukses Warriors mempertahankan gelar juara.<br><br>
+
+			Warriors berhasil menyapu bersih empat gim 
+			pertama final NBA 2018 melawan Cleveland Cavaliers. 
+			Pada gim penentu alias gim keempat, mereka menang 
+			telak 108-85 di Quicken Loans Arena, Sabtu (9/6/2018) pagi WIB.
+		<a class="baca" href="baca2.html"> baca Selengkapnya</a>
+			</p>
+			
+		</ul>
+	</div>
+	
+	<div class="divc23">
+		<ul>
+			<img src="lalala.jpg" class="player1">
+			<p>
+			MANCHESTER – Rumor kepergian Anthony Martial
+			dari Manchester United pada bursa transfer 
+			musim panas 2018 ini terus berembus kencang. 
+			Man United sendiri tampaknya belum rela kehilangan 
+			salah satu pemain terbaiknya tersebut. Karena itu, 
+			mereka pun siap menaikkan harga Martial.
+		<a class="baca" href="lalala.html"> baca Selengkapnya</a>
+			</p>
+			
+		</ul>
+	</div>
+</div>
+
+		
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+		navbar.classList.remove("sticky");
+			}
+}
+</script>
+
+
+</body>
+
+</html>
